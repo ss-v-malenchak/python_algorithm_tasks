@@ -48,7 +48,7 @@ if __name__ == '__main__':
     }
 
     while True:
-        print("1 for task 178.4\n2 for task 178.5\n3 for task 555\nsmth else to exit")
+        print("\n1 for task 178.4\n2 for task 178.5\n3 for task 555\nsmth else to exit")
         try:
             option = int(input())
             incoming_data = tasks[option]['interface']()
